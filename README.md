@@ -1,1 +1,1 @@
-# SICP-Solutions
+# SICP-Solutions-Scala
