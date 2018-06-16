@@ -14,7 +14,7 @@ def main(args: Array[String]): Unit = {
     else
         sumSquares(y, if(x > z) x else z)
 
-    val sum = sumOfTwoLargeSquares(5,2,5)
+    val sum = sumOfTwoLargeSquares(5,2,9)
     println("-sum->>>"+sum)
 
   }
