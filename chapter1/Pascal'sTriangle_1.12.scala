@@ -1,4 +1,4 @@
-com.mohan.coe.sicp.scala
+package com.mohan.coe.sicp.scala
 
 object Pascal {
 
@@ -9,6 +9,7 @@ object Pascal {
         print(pascal(col,row)+ " ")
       println()
     }
+    
     def pascal(c:Int, r:Int): Int = (c,r) match {
         case(0,_) => 1
         case(c,r)  if(c==r) => 1
