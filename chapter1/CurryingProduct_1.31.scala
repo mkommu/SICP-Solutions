@@ -11,3 +11,8 @@ object CurryingProduct {
     val aa = product(x => x*x)(3,4)
     println("-------(f)(Int,Int)-----"+aa)
   }
+  
+  // Factorial in terms of product
+   def factorial(n: Int) = product(x => x)(1,n)
+   val fact = factorial(5)
+   println("------fact------>>>"+fact)
