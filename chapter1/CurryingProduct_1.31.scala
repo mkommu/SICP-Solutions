@@ -16,3 +16,6 @@ object CurryingProduct {
    def factorial(n: Int) = product(x => x)(1,n)
    val fact = factorial(5)
    println("------fact------>>>"+fact)
+  
+  
+  
